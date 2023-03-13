@@ -20,7 +20,8 @@
 }
 
 .logo {
-  width: 90px !important;
+  width: 156px !important;
+  margin-top: -12px;
 }
 
 .header-container > li {
