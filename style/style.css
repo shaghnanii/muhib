@@ -1,29 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
 * {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header {
   width: 100%;
   height: 90px;
-  background-color: rgba(34, 197, 62, 0.815);
+  background-color: #253f50;
 }
 
 .header-container {
   list-style: none;
 }
 
-.header-container > li {
+.header-container > li:first-child {
   float: left;
+}
+
+.logo {
+  width: 90px !important;
+}
+
+.header-container > li {
+  float: right;
   margin-right: 30px;
   margin-top: 23px;
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: bold;
+  color: white;
 }
 
 .header-container > li:hover {
-  background-color: #fc7300;
   cursor: pointer;
-  color: white;
+  color: #00bfa0;
+}
+
+.first-container {
+  background-color: #00bfa0;
+  width: 100%;
+  height: 700px;
+}
+
+.second-container {
+  background-color: white;
+  width: 100%;
+  height: 700px;
+}
+
+.third-container {
+  background-color: #00bfa0;
+  width: 100%;
+  height: 700px;
+}
+
+.avatar {
+  width: 240px;
+  height: 254px;
+  margin-top: 100px;
+}
+
+.avatar-container h1 {
+  color: red;
 }
