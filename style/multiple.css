@@ -40,6 +40,8 @@
   height: 60px;
   border-radius: 50%;
   background: blue !important;
+  margin-right: 0px;
+  transition: margin-right 0.3s;
 }
 
 .chat-box > i {
@@ -48,6 +50,5 @@
 
 .chat-box:hover {
   cursor: pointer;
-  width: 62px;
-  height: 62px;
+  margin-right: 3px;
 }
