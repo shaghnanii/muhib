@@ -1,0 +1,28 @@
+.mb {
+  margin-bottom: 5px;
+}
+
+.container {
+  background-color: blue;
+  padding: 33px;
+  width: 350px;
+  text-align: center;
+}
+
+.form-container {
+  text-align: left;
+}
+
+.lable {
+  color: white;
+}
+
+.line-break {
+  line-break: auto;
+}
+
+.submit-button {
+  width: 200px;
+  height: 40px;
+  background-color: green;
+}
