@@ -33,8 +33,8 @@
           <h1 class="color-white">START BOOTSTRAP</h1>
         </center>
         <div class="center">
-          <button onclick="call('muhib')">MUHIB</button>
-          <button onclick="call('atta')">Atta</button>
+          <button onclick='printName("Muhib")'>MUHIB</button>
+          <button>Atta</button>
         </div>
       </div>
     </div>
@@ -52,12 +52,34 @@
     <script>
       // jquery syntax - will always triggered when the page is ready.
       $(document).ready(function () {
-        console.log("Page has been loaded.");
+        printName("Shakil Ahmad");
+        printName("8 + 8");
+
+        sum(4, 4);
+        add(4, 4, 5, 5);
+        printName("Muhib Arsalan");
+        printName("Atta");
+        printMyName();
+        printMyName();
       });
 
-      // simple javascript - function
-      function call(temp) {
-        console.log(temp);
+      function printMyName() {
+        console.log("Muhib - Me");
+      }
+
+      function printName(name) {
+        console.log(name);
+      }
+
+      function add(a, b, c, d) {
+        var result = a + b + c + d;
+        console.log("add() - Adding up 4 numbers: " + result);
+      }
+
+      function sum(a, b) {
+        var result = 0;
+        result = a + b;
+        console.log("sum() - SUM: " + result);
       }
     </script>
   </body>
