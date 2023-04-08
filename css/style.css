@@ -1,0 +1,12 @@
+.custom-color {
+  background-color: pink;
+  color: black;
+}
+.custom-color:hover {
+  background-color: green;
+}
+.custom-img-size {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
